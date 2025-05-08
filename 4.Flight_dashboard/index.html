@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Air Flight Booking Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary px-3">
+    <a class="navbar-brand" href="#">SkyBook</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Flights</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Bookings</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search flights..." aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Dashboard Header -->
+  <header class="text-center my-4">
+    <h2>🛫 Air Flight Booking System Dashboard</h2>
+    <p class="lead">Manage flights, bookings, and customer support efficiently</p>
+  </header>
+
+  <!-- Dashboard Content -->
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Announcements -->
+      <div class="col-md-6">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">📢 Alerts & Updates</h5>
+            <p class="card-text">New travel restrictions in effect from June 1st. Please check flight guidelines before booking.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flight Timetable -->
+      <div class="col-md-6">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">📅 Flight Schedule</h5>
+            <p class="card-text">Regular flights from 6:00 AM to 11:00 PM. Special charters on weekends.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- My Bookings -->
+      <div class="col-md-6">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">✈️ My Bookings</h5>
+            <p class="card-text">View and manage your upcoming flight tickets and travel history here.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Support -->
+      <div class="col-md-6">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">📞 Customer Support</h5>
+            <p class="card-text">Email: help@skybook.com <br> Phone: 1800-555-7890</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer: Customer Reviews -->
+  <footer class="bg-dark text-light mt-5 pt-4 pb-3">
+    <div class="container text-center">
+      <h5 class="mb-3">💬 Traveler Reviews</h5>
+      <p class="mb-2">"SkyBook makes booking flights simple and quick. Loved the experience!"</p>
+      <a href="#" class="btn btn-outline-light btn-sm">Read More Reviews</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>

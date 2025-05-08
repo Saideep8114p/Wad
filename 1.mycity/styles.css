@@ -1,0 +1,24 @@
+/* Each landmark name looks different */
+.landmark-name:nth-child(1) {
+    color: blue;
+    font-family: Arial, sans-serif;
+  }
+  
+  .landmark-name:nth-child(2) {
+    color: green;
+    font-family: Georgia, serif;
+  }
+  
+  .landmark-name:nth-child(3) {
+    color: darkred;
+    font-family: "Courier New", monospace;
+  }
+  
+  /* Images are hidden by default */
+  .landmark-img {
+    display: none;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
