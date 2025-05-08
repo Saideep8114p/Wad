@@ -1,0 +1,10 @@
+runtime: python39  # Required, even though we don't use Python code
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /(.*)
+  static_files: \1
+  upload: (.*)
